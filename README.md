@@ -136,15 +136,30 @@ edges whose removal keeps chi=3:    []
 vertices whose removal keeps chi=3: []
 ```
 
+## Independent re-encoding (`AuditBridge.lean`)
+
+`AuditBridge.lean` re-derives the whole statement with a deliberately different
+encoding — vertices are plain `Nat`, edges are `Nat` triples, and colourings are
+natural numbers decoded in base 2 / base 3 — and then proves the two encodings agree:
+
+```lean
+theorem bridge_intended      : Intended := by decide
+theorem bridge_matches_main  : Intended ↔ JSP690.WitnessProperty JSP690.H := by decide
+```
+
+`bridge_intended` **does not depend on any axioms**; `bridge_matches_main` reports
+`[propext]`. It is not a default Lake target: build it with `lake build AuditBridge`.
+
 ## Files
 
 ```
 lakefile.lean        -- package definition (no dependencies)
 lean-toolchain       -- leanprover/lean4:v4.34.1
 JSP690.lean          -- definitions, witness, certificates, theorems
-../gen_lean.py       -- generator: computes certificates, emits JSP690.lean
-../witness.py        -- independent Python brute-force check
-../search3.py        -- simulated-annealing search for alternative (independent) witnesses
+AuditBridge.lean     -- independent re-encoding and cross-check
+gen_lean.py          -- generator: computes certificates, emits JSP690.lean
+gen_bridge.py        -- generator: emits AuditBridge.lean
+witness.py           -- independent Python brute-force check
 ```
 
 ## License
