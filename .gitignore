@@ -1,0 +1,4 @@
+.lake/
+lean-toolchain2/
+*.olean
+__pycache__/
