@@ -52,7 +52,7 @@ TPL = '''/-
   `bridge_matches_main` shows the two independent encodings agree.
 -/
 
-import JSP690
+import JSP000690
 
 namespace AuditBridge
 
