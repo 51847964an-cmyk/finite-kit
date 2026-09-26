@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "project": {
+    "root": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
+    "repository": "https://github.com/OWNER/REPOSITORY",
+    "commit": "a574564d9e08d4d808698323c54e591abfaf9370",
+    "toolchain": "leanprover/lean4:v4.34.1"
+  },
+  "problems": [
+    {
+      "id": "JSP-000690",
+      "source": "https://github.com/TheJustinSunPrize/awards/blob/main/problems/catalog-0601-0700.md#JSP-000690",
+      "requirements": [
+        {
+          "id": "existence",
+          "description": "Decide the existence question: is there a three-uniform, three-chromatic-critical hypergraph with minimum degree at least seven?",
+          "targets": [
+            "main",
+            "intended",
+            "bridge_match"
+          ],
+          "coverage": "full",
+          "evidence": "JSP000690.jsp690_exists constructs H and supplies JSP000690.H_is_witness; AuditBridge.bridge_intended re-derives the same conclusion from an independent encoding; AuditBridge.bridge_matches_main shows the two statements agree."
+        },
+        {
+          "id": "three_uniform",
+          "description": "The hypergraph must be three-uniform.",
+          "targets": [
+            "t_uniform"
+          ],
+          "coverage": "full",
+          "evidence": "JSP000690.H_is_three_uniform : threeUniform H = true."
+        },
+        {
+          "id": "min_degree_7",
+          "description": "Minimum degree >= 7 (exactly 7 for the witness).",
+          "targets": [
+            "t_mindeg"
+          ],
+          "coverage": "full",
+          "evidence": "JSP000690.H_min_degree : minDegree H = 7; degree sequence is [10,7,7,7,7,7,7,7,7]."
+        },
+        {
+          "id": "chromatic_at_least_3",
+          "description": "No proper 2-colouring (chi >= 3).",
+          "targets": [
+            "t_chi_lower"
+          ],
+          "coverage": "full",
+          "evidence": "JSP000690.H_not_2_colourable : twoColourable H = false, proved by exhaustive reduction over 512 two-colourings."
+        },
+        {
+          "id": "chromatic_at_most_3",
+          "description": "Some proper 3-colouring exists (chi <= 3).",
+          "targets": [
+            "t_chi_upper"
+          ],
+          "coverage": "full",
+          "evidence": "JSP000690.H_is_3_colourable : proper3 psi H = true for the explicit 3-colouring psi."
+        },
+        {
+          "id": "edge_critical",
+          "description": "Deleting any edge leaves a 2-colourable hypergraph.",
+          "targets": [
+            "t_edge_crit"
+          ],
+          "coverage": "full",
+          "evidence": "JSP000690.H_edge_critical : edgeCritical H = true, certified by 22 explicit 2-colourings."
+        },
+        {
+          "id": "vertex_critical",
+          "description": "Deleting any vertex leaves a 2-colourable hypergraph.",
+          "targets": [
+            "t_vertex_crit"
+          ],
+          "coverage": "full",
+          "evidence": "JSP000690.H_vertex_critical : vertexCritical H = true, certified by 9 explicit 2-colourings."
+        }
+      ]
+    }
+  ],
+  "targets": [
+    {
+      "id": "main",
+      "problem": "JSP-000690",
+      "role": "theorem",
+      "module": "JSP000690",
+      "declaration": "JSP690.jsp690_exists",
+      "source": "JSP000690.lean"
+    },
+    {
+      "id": "t_uniform",
+      "problem": "JSP-000690",
+      "role": "theorem",
+      "module": "JSP000690",
+      "declaration": "JSP690.H_is_three_uniform",
+      "source": "JSP000690.lean"
+    },
+    {
+      "id": "t_mindeg",
+      "problem": "JSP-000690",
+      "role": "theorem",
+      "module": "JSP000690",
+      "declaration": "JSP690.H_min_degree",
+      "source": "JSP000690.lean"
+    },
+    {
+      "id": "t_chi_lower",
+      "problem": "JSP-000690",
+      "role": "theorem",
+      "module": "JSP000690",
+      "declaration": "JSP690.H_not_2_colourable",
+      "source": "JSP000690.lean"
+    },
+    {
+      "id": "t_chi_upper",
+      "problem": "JSP-000690",
+      "role": "theorem",
+      "module": "JSP000690",
+      "declaration": "JSP690.H_is_3_colourable",
+      "source": "JSP000690.lean"
+    },
+    {
+      "id": "t_edge_crit",
+      "problem": "JSP-000690",
+      "role": "theorem",
+      "module": "JSP000690",
+      "declaration": "JSP690.H_edge_critical",
+      "source": "JSP000690.lean"
+    },
+    {
+      "id": "t_vertex_crit",
+      "problem": "JSP-000690",
+      "role": "theorem",
+      "module": "JSP000690",
+      "declaration": "JSP690.H_vertex_critical",
+      "source": "JSP000690.lean"
+    },
+    {
+      "id": "intended",
+      "problem": "JSP-000690",
+      "role": "bridge",
+      "module": "AuditBridge",
+      "declaration": "AuditBridge.bridge_intended",
+      "source": "AuditBridge.lean"
+    },
+    {
+      "id": "bridge_match",
+      "problem": "JSP-000690",
+      "role": "bridge",
+      "module": "AuditBridge",
+      "declaration": "AuditBridge.bridge_matches_main",
+      "source": "AuditBridge.lean"
+    }
+  ]
+}

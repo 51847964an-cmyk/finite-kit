@@ -11,7 +11,7 @@
   `bridge_matches_main` shows the two independent encodings agree.
 -/
 
-import JSP690
+import JSP000690
 
 namespace AuditBridge
 
@@ -20,7 +20,7 @@ set_option maxHeartbeats 0
 
 /- ---------- independent encoding ---------- -/
 
-def E : List (Nat × Nat × Nat) := [(0, 1, 2), (0, 1, 8), (0, 2, 7), (0, 3, 5), (0, 3, 7), (0, 3, 8), (0, 4, 6), (0, 4, 7), (0, 4, 8), (0, 5, 6), (1, 2, 5), (1, 2, 6), (1, 3, 8), (1, 4, 8), (1, 5, 6), (2, 3, 7), (2, 4, 7), (2, 5, 6), (3, 5, 7), (3, 5, 8), (4, 6, 7), (4, 6, 8)]
+def E : List (Nat × Nat × Nat) := (0, 1, 2), (0, 1, 8), (0, 2, 7), (0, 3, 5), (0, 3, 7), (0, 3, 8), (0, 4, 6), (0, 4, 7), (0, 4, 8), (0, 5, 6), (1, 2, 5), (1, 2, 6), (1, 3, 8), (1, 4, 8), (1, 5, 6), (2, 3, 7), (2, 4, 7), (2, 5, 6), (3, 5, 7), (3, 5, 8), (4, 6, 7), (4, 6, 8)
 
 def allB {{α : Type}} (l : List α) (p : α → Bool) : Bool :=
   l.foldl (fun acc x => acc && p x) true
@@ -65,10 +65,10 @@ def noProper2 : Bool := !(anyB (List.range 512) (fun m => proper2 m))
 def m3 : Nat := 10458
 
 /-- explicit 2-colouring of E minus edge i, for i = 0..21 -/
-def edgeCerts : List Nat := [480, 92, 90, 452, 308, 178, 420, 332, 202, 30, 62, 94, 458, 434, 482, 460, 436, 484, 186, 316, 218, 348]
+def edgeCerts : List Nat := 480, 92, 90, 452, 308, 178, 420, 332, 202, 30, 62, 94, 458, 434, 482, 460, 436, 484, 186, 316, 218, 348
 
 /-- explicit 2-colouring of E minus vertex v, for v = 0..8 -/
-def vertexCerts : List Nat := [480, 480, 480, 452, 420, 452, 420, 308, 92]
+def vertexCerts : List Nat := 480, 480, 480, 452, 420, 452, 420, 308, 92
 
 def nthDelete (i : Nat) : List (Nat × Nat × Nat) :=
   ((E.zip (List.range 22)).filter (fun q => !(q.2 == i))).map (fun q => q.1)

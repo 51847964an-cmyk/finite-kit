@@ -200,6 +200,6 @@ out = (TPL.replace("%(edges_lean)s", edges_lean)
           .replace("%(c3)s", fin3s(c3))
           .replace("%(ew)s", ew_lean)
           .replace("%(vw)s", vw_lean))
-p = "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean/JSP690.lean"
+p = "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo/JSP000690.lean"
 open(p, "w").write(out)
 print("written", p, len(out), "chars")

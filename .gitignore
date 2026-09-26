@@ -1,4 +1,12 @@
 .lake/
-lean-toolchain2/
 *.olean
+*.ilean
+*.server
+*.sig
+*.ir
 __pycache__/
+.DS_Store
+*.log
+# audit manifest references HEAD SHA and is generated on demand
+tools/audit/targets.json
+audit-rerun/

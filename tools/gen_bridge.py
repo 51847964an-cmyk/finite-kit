@@ -159,7 +159,7 @@ out = (TPL.replace("[EDGES]", edges_lean)
           .replace("[EW]", ew_lean)
           .replace("[VW]", vw_lean))
 
-p = os.path.join(os.path.dirname(os.path.abspath(__file__)), "repo", "AuditBridge.lean")
+p = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "AuditBridge.lean")
 os.makedirs(os.path.dirname(p), exist_ok=True)
 open(p, "w").write(out)
 print("written", p)
