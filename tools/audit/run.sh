@@ -3,16 +3,17 @@
 #
 # Usage: bash tools/audit/run.sh
 #
-# Side effects: writes /tmp/audit-rerun/result.json and prints a summary.
-# Requires: lake on PATH (or via elan), the toolchain from `lean-toolchain`,
-#           and the official `skills/lean-verify/scripts/audit.py` somewhere
-#           accessible. Set LEAN_OFFICE_AUDIT to point at it.
+# Side effects: writes /tmp/audit-rerun-<timestamp>/result.json and prints
+# a summary. Requires: lake on PATH (or via elan), the toolchain from
+# `lean-toolchain`, and the official `skills/lean-verify/scripts/audit.py`
+# somewhere accessible. Set LEAN_OFFICE_AUDIT to point at it.
 
 set -euo pipefail
 
 HERE="$(cd "$(dirname "$0")" && pwd)"
 ROOT="$(cd "$HERE/../.." && pwd)"
-TMP="${TMP:-/tmp/audit-rerun}"
+# Per-run output directory: timestamp suffix avoids "output already exists"
+TMP="${TMP:-/tmp/audit-rerun-$(date +%s)}"
 LEAN_BIN="${LEAN_BIN:-lake}"
 AUDIT_PY="${LEAN_OFFICE_AUDIT:-../../justinsun-awards/skills/lean-verify/scripts/audit.py}"
 
