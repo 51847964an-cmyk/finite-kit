@@ -35,9 +35,9 @@ m3 = enc_base(c3, 3)
 ew_nat = [enc_base(w, 2) for w in ew]
 vw_nat = [enc_base(w, 2) for w in vw]
 
-edges_lean = ", ".join("(%d, %d, %d)" % e for e in E0)
-ew_lean = ", ".join(str(n) for n in ew_nat)
-vw_lean = ", ".join(str(n) for n in vw_nat)
+edges_lean = "[" + ", ".join("(%d, %d, %d)" % e for e in E0) + "]"
+ew_lean = "[" + ", ".join(str(n) for n in ew_nat) + "]"
+vw_lean = "[" + ", ".join(str(n) for n in vw_nat) + "]"
 
 TPL = '''/-
   AuditBridge -- independent re-encoding and cross-check of the JSP-000690 witness.
@@ -61,7 +61,7 @@ set_option maxHeartbeats 0
 
 /- ---------- independent encoding ---------- -/
 
-def E : List (Nat × Nat × Nat) := [EDGES]
+def E : List (Nat × Nat × Nat) := EDGES
 
 def allB {{α : Type}} (l : List α) (p : α → Bool) : Bool :=
   l.foldl (fun acc x => acc && p x) true
@@ -106,10 +106,10 @@ def noProper2 : Bool := !(anyB (List.range 512) (fun m => proper2 m))
 def m3 : Nat := M3
 
 /-- explicit 2-colouring of E minus edge i, for i = 0..21 -/
-def edgeCerts : List Nat := [EW]
+def edgeCerts : List Nat := EW
 
 /-- explicit 2-colouring of E minus vertex v, for v = 0..8 -/
-def vertexCerts : List Nat := [VW]
+def vertexCerts : List Nat := VW
 
 def nthDelete (i : Nat) : List (Nat × Nat × Nat) :=
   ((E.zip (List.range 22)).filter (fun q => !(q.2 == i))).map (fun q => q.1)
@@ -154,10 +154,10 @@ theorem bridge_matches_main : Intended ↔ JSP690.WitnessProperty JSP690.H := by
 end AuditBridge
 '''
 
-out = (TPL.replace("[EDGES]", edges_lean)
+out = (TPL.replace("EDGES", edges_lean)
           .replace("M3", str(m3))
-          .replace("[EW]", ew_lean)
-          .replace("[VW]", vw_lean))
+          .replace("EW", ew_lean)
+          .replace("VW", vw_lean))
 
 p = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "AuditBridge.lean")
 os.makedirs(os.path.dirname(p), exist_ok=True)
