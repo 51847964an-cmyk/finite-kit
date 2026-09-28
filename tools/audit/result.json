@@ -4,7 +4,7 @@
   "preflight": {
     "ready_for_target_checks": true,
     "issues": [],
-    "head": "60f0543927befcff0594e2a6f0dbe97323512464",
+    "head": "2926281f519b5559be5fe3ccaabda0496e6bf2c6",
     "git_status": "",
     "toolchain_file": "leanprover/lean4:v4.34.1",
     "file_sha256": {
@@ -27,397 +27,397 @@
   "commands": [
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "--version"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/version-0.log",
+      "log": "/private/tmp/audit-rerun-1790583101/version-0.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 3.444,
+      "seconds": 0.639,
       "log_sha256": "36526a338068c343bedff5daa38fec328b4f722df1e8f0b5d026d4f0f908f3a3"
     },
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "env",
         "lean",
         "--version"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/version-1.log",
+      "log": "/private/tmp/audit-rerun-1790583101/version-1.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 23.107,
+      "seconds": 9.243,
       "log_sha256": "1ca1dc0352a8c568dd757c3711c918f0fcd7ecdbd62f1b347b52df3a663bd8db"
     },
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "build",
         "+JSP000690"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/0000-0.log",
+      "log": "/private/tmp/audit-rerun-1790583101/0000-0.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 7.535,
+      "seconds": 8.518,
       "log_sha256": "d436fb5cdaacfdb8984bad92a62866306c7fda4b85181e19df49015cb9250082"
     },
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "env",
         "lean",
         "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo/JSP000690.lean"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/0000-1.log",
+      "log": "/private/tmp/audit-rerun-1790583101/0000-1.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 94.527,
+      "seconds": 52.571,
       "log_sha256": "d913a9e8ce4b25ff13b207b6ae0583e1df4b19ac84e5c6d70b7fb769bf4bd793"
     },
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "env",
         "lean",
-        "/private/tmp/audit-rerun-1790436205/Audit0000.lean"
+        "/private/tmp/audit-rerun-1790583101/Audit0000.lean"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/0000-2.log",
+      "log": "/private/tmp/audit-rerun-1790583101/0000-2.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 43.615,
+      "seconds": 7.953,
       "log_sha256": "6fa3e9469da8dae98755edf48d31814cfc821520b2dfff3a0393b4cf22d9e157"
     },
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "build",
         "+JSP000690"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/0001-0.log",
+      "log": "/private/tmp/audit-rerun-1790583101/0001-0.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 7.046,
+      "seconds": 4.45,
       "log_sha256": "d436fb5cdaacfdb8984bad92a62866306c7fda4b85181e19df49015cb9250082"
     },
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "env",
         "lean",
         "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo/JSP000690.lean"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/0001-1.log",
+      "log": "/private/tmp/audit-rerun-1790583101/0001-1.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 44.92,
+      "seconds": 92.268,
       "log_sha256": "d913a9e8ce4b25ff13b207b6ae0583e1df4b19ac84e5c6d70b7fb769bf4bd793"
     },
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "env",
         "lean",
-        "/private/tmp/audit-rerun-1790436205/Audit0001.lean"
+        "/private/tmp/audit-rerun-1790583101/Audit0001.lean"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/0001-2.log",
+      "log": "/private/tmp/audit-rerun-1790583101/0001-2.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 40.567,
+      "seconds": 4.744,
       "log_sha256": "570b0d6856103103b09df9aeac47f2b3b11339ecdecc0500c40e5c0576a05168"
     },
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "build",
         "+JSP000690"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/0002-0.log",
+      "log": "/private/tmp/audit-rerun-1790583101/0002-0.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 36.298,
+      "seconds": 2.477,
       "log_sha256": "d436fb5cdaacfdb8984bad92a62866306c7fda4b85181e19df49015cb9250082"
     },
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "env",
         "lean",
         "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo/JSP000690.lean"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/0002-1.log",
+      "log": "/private/tmp/audit-rerun-1790583101/0002-1.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 151.061,
+      "seconds": 17.514,
       "log_sha256": "d913a9e8ce4b25ff13b207b6ae0583e1df4b19ac84e5c6d70b7fb769bf4bd793"
     },
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "env",
         "lean",
-        "/private/tmp/audit-rerun-1790436205/Audit0002.lean"
+        "/private/tmp/audit-rerun-1790583101/Audit0002.lean"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/0002-2.log",
+      "log": "/private/tmp/audit-rerun-1790583101/0002-2.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 10.414,
+      "seconds": 3.59,
       "log_sha256": "60787d82a805bc87cf68019bf8e8d9823aa7425be3b718891f0c0b6153793907"
     },
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "build",
         "+JSP000690"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/0003-0.log",
+      "log": "/private/tmp/audit-rerun-1790583101/0003-0.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 4.921,
+      "seconds": 2.117,
       "log_sha256": "d436fb5cdaacfdb8984bad92a62866306c7fda4b85181e19df49015cb9250082"
     },
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "env",
         "lean",
         "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo/JSP000690.lean"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/0003-1.log",
+      "log": "/private/tmp/audit-rerun-1790583101/0003-1.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 118.529,
+      "seconds": 18.356,
       "log_sha256": "d913a9e8ce4b25ff13b207b6ae0583e1df4b19ac84e5c6d70b7fb769bf4bd793"
     },
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "env",
         "lean",
-        "/private/tmp/audit-rerun-1790436205/Audit0003.lean"
+        "/private/tmp/audit-rerun-1790583101/Audit0003.lean"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/0003-2.log",
+      "log": "/private/tmp/audit-rerun-1790583101/0003-2.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 4.89,
+      "seconds": 4.16,
       "log_sha256": "66cd0bac861b4aeda996bb1f792398b3bc2a1cd970d2db5c105f837b4962811e"
     },
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "build",
         "+JSP000690"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/0004-0.log",
+      "log": "/private/tmp/audit-rerun-1790583101/0004-0.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 2.946,
+      "seconds": 2.706,
       "log_sha256": "d436fb5cdaacfdb8984bad92a62866306c7fda4b85181e19df49015cb9250082"
     },
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "env",
         "lean",
         "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo/JSP000690.lean"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/0004-1.log",
+      "log": "/private/tmp/audit-rerun-1790583101/0004-1.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 26.661,
+      "seconds": 30.808,
       "log_sha256": "d913a9e8ce4b25ff13b207b6ae0583e1df4b19ac84e5c6d70b7fb769bf4bd793"
     },
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "env",
         "lean",
-        "/private/tmp/audit-rerun-1790436205/Audit0004.lean"
+        "/private/tmp/audit-rerun-1790583101/Audit0004.lean"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/0004-2.log",
+      "log": "/private/tmp/audit-rerun-1790583101/0004-2.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 6.016,
+      "seconds": 7.933,
       "log_sha256": "44ace9293ec953a389f8376d2fb9a49724763feafc1ce30a23a23a4481c950f6"
     },
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "build",
         "+JSP000690"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/0005-0.log",
+      "log": "/private/tmp/audit-rerun-1790583101/0005-0.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 3.221,
+      "seconds": 4.291,
       "log_sha256": "d436fb5cdaacfdb8984bad92a62866306c7fda4b85181e19df49015cb9250082"
     },
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "env",
         "lean",
         "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo/JSP000690.lean"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/0005-1.log",
+      "log": "/private/tmp/audit-rerun-1790583101/0005-1.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 39.813,
+      "seconds": 45.96,
       "log_sha256": "d913a9e8ce4b25ff13b207b6ae0583e1df4b19ac84e5c6d70b7fb769bf4bd793"
     },
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "env",
         "lean",
-        "/private/tmp/audit-rerun-1790436205/Audit0005.lean"
+        "/private/tmp/audit-rerun-1790583101/Audit0005.lean"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/0005-2.log",
+      "log": "/private/tmp/audit-rerun-1790583101/0005-2.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 15.605,
+      "seconds": 9.008,
       "log_sha256": "2179c6b9e0cfe9d5b02b53c79521223525a3661eaeb341ab07d55d20a5e9ede0"
     },
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "build",
         "+JSP000690"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/0006-0.log",
+      "log": "/private/tmp/audit-rerun-1790583101/0006-0.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 22.233,
+      "seconds": 5.086,
       "log_sha256": "d436fb5cdaacfdb8984bad92a62866306c7fda4b85181e19df49015cb9250082"
     },
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "env",
         "lean",
         "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo/JSP000690.lean"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/0006-1.log",
+      "log": "/private/tmp/audit-rerun-1790583101/0006-1.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 98.304,
+      "seconds": 63.399,
       "log_sha256": "d913a9e8ce4b25ff13b207b6ae0583e1df4b19ac84e5c6d70b7fb769bf4bd793"
     },
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "env",
         "lean",
-        "/private/tmp/audit-rerun-1790436205/Audit0006.lean"
+        "/private/tmp/audit-rerun-1790583101/Audit0006.lean"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/0006-2.log",
+      "log": "/private/tmp/audit-rerun-1790583101/0006-2.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 7.242,
+      "seconds": 7.606,
       "log_sha256": "68d4b4d31f599ce39aeba99942307dca02943989ced13a69123ec6fa74039a0a"
     },
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "build",
         "+AuditBridge"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/0007-0.log",
+      "log": "/private/tmp/audit-rerun-1790583101/0007-0.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 141.89,
-      "log_sha256": "e658c3bba5107277b796aa2243e42fdddc9a3efa5e054c5e8a9585a8c79e6515"
+      "seconds": 50.716,
+      "log_sha256": "d949676e1b6deb91ec1adfa8eba3853cfe4922ccb77b1a5b29d781aca229eb28"
     },
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "env",
         "lean",
         "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo/AuditBridge.lean"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/0007-1.log",
+      "log": "/private/tmp/audit-rerun-1790583101/0007-1.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 138.935,
+      "seconds": 51.636,
       "log_sha256": "75806e055af219a350927c7def7c083138da6834f9090b6f778ed072b117842c"
     },
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "env",
         "lean",
-        "/private/tmp/audit-rerun-1790436205/Audit0007.lean"
+        "/private/tmp/audit-rerun-1790583101/Audit0007.lean"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/0007-2.log",
+      "log": "/private/tmp/audit-rerun-1790583101/0007-2.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 7.796,
+      "seconds": 6.328,
       "log_sha256": "cbdd042cf91d7a2f82b4a7ca2569b5af1efb7d0cd329338b51fc77e8852a5a16"
     },
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "build",
         "+AuditBridge"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/0008-0.log",
+      "log": "/private/tmp/audit-rerun-1790583101/0008-0.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 3.827,
+      "seconds": 3.364,
       "log_sha256": "96d345fc82e7abb03b7bf2281276ea6ac723f2e246bb0a82ce20fe9fdb8ff71f"
     },
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "env",
         "lean",
         "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo/AuditBridge.lean"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/0008-1.log",
+      "log": "/private/tmp/audit-rerun-1790583101/0008-1.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 114.534,
+      "seconds": 37.795,
       "log_sha256": "75806e055af219a350927c7def7c083138da6834f9090b6f778ed072b117842c"
     },
     {
       "argv": [
-        "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+        "/Users/mac/.elan/bin/lake",
         "env",
         "lean",
-        "/private/tmp/audit-rerun-1790436205/Audit0008.lean"
+        "/private/tmp/audit-rerun-1790583101/Audit0008.lean"
       ],
       "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-      "log": "/private/tmp/audit-rerun-1790436205/0008-2.log",
+      "log": "/private/tmp/audit-rerun-1790583101/0008-2.log",
       "exit_code": 0,
       "status": "ok",
-      "seconds": 5.774,
+      "seconds": 5.722,
       "log_sha256": "1c109474ff2fa60da2e5744ce0d4392e262816e10890f0b68b92ef1c3baf46fa"
     }
   ],
@@ -425,7 +425,7 @@
     {
       "id": "main",
       "declaration": "JSP690.jsp690_exists",
-      "audit_file": "/private/tmp/audit-rerun-1790436205/Audit0000.lean",
+      "audit_file": "/private/tmp/audit-rerun-1790583101/Audit0000.lean",
       "audit_sha256": "242519e1369a6c6146c7c3f937a8c807df6f04666432830d5f2a733936a51ed6",
       "status": "standard_axioms_only",
       "axioms": [
@@ -434,43 +434,43 @@
       "commands": [
         {
           "argv": [
-            "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+            "/Users/mac/.elan/bin/lake",
             "build",
             "+JSP000690"
           ],
           "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-          "log": "/private/tmp/audit-rerun-1790436205/0000-0.log",
+          "log": "/private/tmp/audit-rerun-1790583101/0000-0.log",
           "exit_code": 0,
           "status": "ok",
-          "seconds": 7.535,
+          "seconds": 8.518,
           "log_sha256": "d436fb5cdaacfdb8984bad92a62866306c7fda4b85181e19df49015cb9250082"
         },
         {
           "argv": [
-            "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+            "/Users/mac/.elan/bin/lake",
             "env",
             "lean",
             "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo/JSP000690.lean"
           ],
           "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-          "log": "/private/tmp/audit-rerun-1790436205/0000-1.log",
+          "log": "/private/tmp/audit-rerun-1790583101/0000-1.log",
           "exit_code": 0,
           "status": "ok",
-          "seconds": 94.527,
+          "seconds": 52.571,
           "log_sha256": "d913a9e8ce4b25ff13b207b6ae0583e1df4b19ac84e5c6d70b7fb769bf4bd793"
         },
         {
           "argv": [
-            "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+            "/Users/mac/.elan/bin/lake",
             "env",
             "lean",
-            "/private/tmp/audit-rerun-1790436205/Audit0000.lean"
+            "/private/tmp/audit-rerun-1790583101/Audit0000.lean"
           ],
           "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-          "log": "/private/tmp/audit-rerun-1790436205/0000-2.log",
+          "log": "/private/tmp/audit-rerun-1790583101/0000-2.log",
           "exit_code": 0,
           "status": "ok",
-          "seconds": 43.615,
+          "seconds": 7.953,
           "log_sha256": "6fa3e9469da8dae98755edf48d31814cfc821520b2dfff3a0393b4cf22d9e157"
         }
       ]
@@ -478,7 +478,7 @@
     {
       "id": "t_uniform",
       "declaration": "JSP690.H_is_three_uniform",
-      "audit_file": "/private/tmp/audit-rerun-1790436205/Audit0001.lean",
+      "audit_file": "/private/tmp/audit-rerun-1790583101/Audit0001.lean",
       "audit_sha256": "f25ebb239ef893ca83c362c25e8b8a62c115f2598422059e56801d3da3cc1753",
       "status": "standard_axioms_only",
       "axioms": [
@@ -487,43 +487,43 @@
       "commands": [
         {
           "argv": [
-            "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+            "/Users/mac/.elan/bin/lake",
             "build",
             "+JSP000690"
           ],
           "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-          "log": "/private/tmp/audit-rerun-1790436205/0001-0.log",
+          "log": "/private/tmp/audit-rerun-1790583101/0001-0.log",
           "exit_code": 0,
           "status": "ok",
-          "seconds": 7.046,
+          "seconds": 4.45,
           "log_sha256": "d436fb5cdaacfdb8984bad92a62866306c7fda4b85181e19df49015cb9250082"
         },
         {
           "argv": [
-            "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+            "/Users/mac/.elan/bin/lake",
             "env",
             "lean",
             "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo/JSP000690.lean"
           ],
           "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-          "log": "/private/tmp/audit-rerun-1790436205/0001-1.log",
+          "log": "/private/tmp/audit-rerun-1790583101/0001-1.log",
           "exit_code": 0,
           "status": "ok",
-          "seconds": 44.92,
+          "seconds": 92.268,
           "log_sha256": "d913a9e8ce4b25ff13b207b6ae0583e1df4b19ac84e5c6d70b7fb769bf4bd793"
         },
         {
           "argv": [
-            "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+            "/Users/mac/.elan/bin/lake",
             "env",
             "lean",
-            "/private/tmp/audit-rerun-1790436205/Audit0001.lean"
+            "/private/tmp/audit-rerun-1790583101/Audit0001.lean"
           ],
           "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-          "log": "/private/tmp/audit-rerun-1790436205/0001-2.log",
+          "log": "/private/tmp/audit-rerun-1790583101/0001-2.log",
           "exit_code": 0,
           "status": "ok",
-          "seconds": 40.567,
+          "seconds": 4.744,
           "log_sha256": "570b0d6856103103b09df9aeac47f2b3b11339ecdecc0500c40e5c0576a05168"
         }
       ]
@@ -531,7 +531,7 @@
     {
       "id": "t_mindeg",
       "declaration": "JSP690.H_min_degree",
-      "audit_file": "/private/tmp/audit-rerun-1790436205/Audit0002.lean",
+      "audit_file": "/private/tmp/audit-rerun-1790583101/Audit0002.lean",
       "audit_sha256": "60215cdf2117a7a1c06e0d8ba2f33811a429b2263dcdc888f071cdfa08118990",
       "status": "standard_axioms_only",
       "axioms": [
@@ -540,43 +540,43 @@
       "commands": [
         {
           "argv": [
-            "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+            "/Users/mac/.elan/bin/lake",
             "build",
             "+JSP000690"
           ],
           "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-          "log": "/private/tmp/audit-rerun-1790436205/0002-0.log",
+          "log": "/private/tmp/audit-rerun-1790583101/0002-0.log",
           "exit_code": 0,
           "status": "ok",
-          "seconds": 36.298,
+          "seconds": 2.477,
           "log_sha256": "d436fb5cdaacfdb8984bad92a62866306c7fda4b85181e19df49015cb9250082"
         },
         {
           "argv": [
-            "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+            "/Users/mac/.elan/bin/lake",
             "env",
             "lean",
             "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo/JSP000690.lean"
           ],
           "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-          "log": "/private/tmp/audit-rerun-1790436205/0002-1.log",
+          "log": "/private/tmp/audit-rerun-1790583101/0002-1.log",
           "exit_code": 0,
           "status": "ok",
-          "seconds": 151.061,
+          "seconds": 17.514,
           "log_sha256": "d913a9e8ce4b25ff13b207b6ae0583e1df4b19ac84e5c6d70b7fb769bf4bd793"
         },
         {
           "argv": [
-            "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+            "/Users/mac/.elan/bin/lake",
             "env",
             "lean",
-            "/private/tmp/audit-rerun-1790436205/Audit0002.lean"
+            "/private/tmp/audit-rerun-1790583101/Audit0002.lean"
           ],
           "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-          "log": "/private/tmp/audit-rerun-1790436205/0002-2.log",
+          "log": "/private/tmp/audit-rerun-1790583101/0002-2.log",
           "exit_code": 0,
           "status": "ok",
-          "seconds": 10.414,
+          "seconds": 3.59,
           "log_sha256": "60787d82a805bc87cf68019bf8e8d9823aa7425be3b718891f0c0b6153793907"
         }
       ]
@@ -584,7 +584,7 @@
     {
       "id": "t_chi_lower",
       "declaration": "JSP690.H_not_2_colourable",
-      "audit_file": "/private/tmp/audit-rerun-1790436205/Audit0003.lean",
+      "audit_file": "/private/tmp/audit-rerun-1790583101/Audit0003.lean",
       "audit_sha256": "a5e746bfeb24e1f10177177ffbb895fc0c11d2352b17a5b19d236142426deb1a",
       "status": "standard_axioms_only",
       "axioms": [
@@ -593,43 +593,43 @@
       "commands": [
         {
           "argv": [
-            "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+            "/Users/mac/.elan/bin/lake",
             "build",
             "+JSP000690"
           ],
           "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-          "log": "/private/tmp/audit-rerun-1790436205/0003-0.log",
+          "log": "/private/tmp/audit-rerun-1790583101/0003-0.log",
           "exit_code": 0,
           "status": "ok",
-          "seconds": 4.921,
+          "seconds": 2.117,
           "log_sha256": "d436fb5cdaacfdb8984bad92a62866306c7fda4b85181e19df49015cb9250082"
         },
         {
           "argv": [
-            "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+            "/Users/mac/.elan/bin/lake",
             "env",
             "lean",
             "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo/JSP000690.lean"
           ],
           "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-          "log": "/private/tmp/audit-rerun-1790436205/0003-1.log",
+          "log": "/private/tmp/audit-rerun-1790583101/0003-1.log",
           "exit_code": 0,
           "status": "ok",
-          "seconds": 118.529,
+          "seconds": 18.356,
           "log_sha256": "d913a9e8ce4b25ff13b207b6ae0583e1df4b19ac84e5c6d70b7fb769bf4bd793"
         },
         {
           "argv": [
-            "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+            "/Users/mac/.elan/bin/lake",
             "env",
             "lean",
-            "/private/tmp/audit-rerun-1790436205/Audit0003.lean"
+            "/private/tmp/audit-rerun-1790583101/Audit0003.lean"
           ],
           "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-          "log": "/private/tmp/audit-rerun-1790436205/0003-2.log",
+          "log": "/private/tmp/audit-rerun-1790583101/0003-2.log",
           "exit_code": 0,
           "status": "ok",
-          "seconds": 4.89,
+          "seconds": 4.16,
           "log_sha256": "66cd0bac861b4aeda996bb1f792398b3bc2a1cd970d2db5c105f837b4962811e"
         }
       ]
@@ -637,7 +637,7 @@
     {
       "id": "t_chi_upper",
       "declaration": "JSP690.H_is_3_colourable",
-      "audit_file": "/private/tmp/audit-rerun-1790436205/Audit0004.lean",
+      "audit_file": "/private/tmp/audit-rerun-1790583101/Audit0004.lean",
       "audit_sha256": "ac86e6a3ee6c04297fcaac033daa5c3e1df855a8c739da8992bf6506c40da359",
       "status": "standard_axioms_only",
       "axioms": [
@@ -646,43 +646,43 @@
       "commands": [
         {
           "argv": [
-            "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+            "/Users/mac/.elan/bin/lake",
             "build",
             "+JSP000690"
           ],
           "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-          "log": "/private/tmp/audit-rerun-1790436205/0004-0.log",
+          "log": "/private/tmp/audit-rerun-1790583101/0004-0.log",
           "exit_code": 0,
           "status": "ok",
-          "seconds": 2.946,
+          "seconds": 2.706,
           "log_sha256": "d436fb5cdaacfdb8984bad92a62866306c7fda4b85181e19df49015cb9250082"
         },
         {
           "argv": [
-            "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+            "/Users/mac/.elan/bin/lake",
             "env",
             "lean",
             "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo/JSP000690.lean"
           ],
           "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-          "log": "/private/tmp/audit-rerun-1790436205/0004-1.log",
+          "log": "/private/tmp/audit-rerun-1790583101/0004-1.log",
           "exit_code": 0,
           "status": "ok",
-          "seconds": 26.661,
+          "seconds": 30.808,
           "log_sha256": "d913a9e8ce4b25ff13b207b6ae0583e1df4b19ac84e5c6d70b7fb769bf4bd793"
         },
         {
           "argv": [
-            "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+            "/Users/mac/.elan/bin/lake",
             "env",
             "lean",
-            "/private/tmp/audit-rerun-1790436205/Audit0004.lean"
+            "/private/tmp/audit-rerun-1790583101/Audit0004.lean"
           ],
           "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-          "log": "/private/tmp/audit-rerun-1790436205/0004-2.log",
+          "log": "/private/tmp/audit-rerun-1790583101/0004-2.log",
           "exit_code": 0,
           "status": "ok",
-          "seconds": 6.016,
+          "seconds": 7.933,
           "log_sha256": "44ace9293ec953a389f8376d2fb9a49724763feafc1ce30a23a23a4481c950f6"
         }
       ]
@@ -690,7 +690,7 @@
     {
       "id": "t_edge_crit",
       "declaration": "JSP690.H_edge_critical",
-      "audit_file": "/private/tmp/audit-rerun-1790436205/Audit0005.lean",
+      "audit_file": "/private/tmp/audit-rerun-1790583101/Audit0005.lean",
       "audit_sha256": "a6edd664863668380e690ebf8d539dbb6a11c00404da4069f05cb65fa4222124",
       "status": "standard_axioms_only",
       "axioms": [
@@ -699,43 +699,43 @@
       "commands": [
         {
           "argv": [
-            "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+            "/Users/mac/.elan/bin/lake",
             "build",
             "+JSP000690"
           ],
           "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-          "log": "/private/tmp/audit-rerun-1790436205/0005-0.log",
+          "log": "/private/tmp/audit-rerun-1790583101/0005-0.log",
           "exit_code": 0,
           "status": "ok",
-          "seconds": 3.221,
+          "seconds": 4.291,
           "log_sha256": "d436fb5cdaacfdb8984bad92a62866306c7fda4b85181e19df49015cb9250082"
         },
         {
           "argv": [
-            "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+            "/Users/mac/.elan/bin/lake",
             "env",
             "lean",
             "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo/JSP000690.lean"
           ],
           "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-          "log": "/private/tmp/audit-rerun-1790436205/0005-1.log",
+          "log": "/private/tmp/audit-rerun-1790583101/0005-1.log",
           "exit_code": 0,
           "status": "ok",
-          "seconds": 39.813,
+          "seconds": 45.96,
           "log_sha256": "d913a9e8ce4b25ff13b207b6ae0583e1df4b19ac84e5c6d70b7fb769bf4bd793"
         },
         {
           "argv": [
-            "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+            "/Users/mac/.elan/bin/lake",
             "env",
             "lean",
-            "/private/tmp/audit-rerun-1790436205/Audit0005.lean"
+            "/private/tmp/audit-rerun-1790583101/Audit0005.lean"
           ],
           "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-          "log": "/private/tmp/audit-rerun-1790436205/0005-2.log",
+          "log": "/private/tmp/audit-rerun-1790583101/0005-2.log",
           "exit_code": 0,
           "status": "ok",
-          "seconds": 15.605,
+          "seconds": 9.008,
           "log_sha256": "2179c6b9e0cfe9d5b02b53c79521223525a3661eaeb341ab07d55d20a5e9ede0"
         }
       ]
@@ -743,7 +743,7 @@
     {
       "id": "t_vertex_crit",
       "declaration": "JSP690.H_vertex_critical",
-      "audit_file": "/private/tmp/audit-rerun-1790436205/Audit0006.lean",
+      "audit_file": "/private/tmp/audit-rerun-1790583101/Audit0006.lean",
       "audit_sha256": "b3e7a0c3a12c001e154efe5b318d4216d29b4af83255b9a896e06849839c422c",
       "status": "standard_axioms_only",
       "axioms": [
@@ -752,43 +752,43 @@
       "commands": [
         {
           "argv": [
-            "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+            "/Users/mac/.elan/bin/lake",
             "build",
             "+JSP000690"
           ],
           "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-          "log": "/private/tmp/audit-rerun-1790436205/0006-0.log",
+          "log": "/private/tmp/audit-rerun-1790583101/0006-0.log",
           "exit_code": 0,
           "status": "ok",
-          "seconds": 22.233,
+          "seconds": 5.086,
           "log_sha256": "d436fb5cdaacfdb8984bad92a62866306c7fda4b85181e19df49015cb9250082"
         },
         {
           "argv": [
-            "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+            "/Users/mac/.elan/bin/lake",
             "env",
             "lean",
             "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo/JSP000690.lean"
           ],
           "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-          "log": "/private/tmp/audit-rerun-1790436205/0006-1.log",
+          "log": "/private/tmp/audit-rerun-1790583101/0006-1.log",
           "exit_code": 0,
           "status": "ok",
-          "seconds": 98.304,
+          "seconds": 63.399,
           "log_sha256": "d913a9e8ce4b25ff13b207b6ae0583e1df4b19ac84e5c6d70b7fb769bf4bd793"
         },
         {
           "argv": [
-            "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+            "/Users/mac/.elan/bin/lake",
             "env",
             "lean",
-            "/private/tmp/audit-rerun-1790436205/Audit0006.lean"
+            "/private/tmp/audit-rerun-1790583101/Audit0006.lean"
           ],
           "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-          "log": "/private/tmp/audit-rerun-1790436205/0006-2.log",
+          "log": "/private/tmp/audit-rerun-1790583101/0006-2.log",
           "exit_code": 0,
           "status": "ok",
-          "seconds": 7.242,
+          "seconds": 7.606,
           "log_sha256": "68d4b4d31f599ce39aeba99942307dca02943989ced13a69123ec6fa74039a0a"
         }
       ]
@@ -796,50 +796,50 @@
     {
       "id": "intended",
       "declaration": "AuditBridge.bridge_intended",
-      "audit_file": "/private/tmp/audit-rerun-1790436205/Audit0007.lean",
+      "audit_file": "/private/tmp/audit-rerun-1790583101/Audit0007.lean",
       "audit_sha256": "938c87112be4e83a8267773af8f61ce13ef6a758829db6fe89f93e4cada13377",
       "status": "standard_axioms_only",
       "axioms": [],
       "commands": [
         {
           "argv": [
-            "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+            "/Users/mac/.elan/bin/lake",
             "build",
             "+AuditBridge"
           ],
           "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-          "log": "/private/tmp/audit-rerun-1790436205/0007-0.log",
+          "log": "/private/tmp/audit-rerun-1790583101/0007-0.log",
           "exit_code": 0,
           "status": "ok",
-          "seconds": 141.89,
-          "log_sha256": "e658c3bba5107277b796aa2243e42fdddc9a3efa5e054c5e8a9585a8c79e6515"
+          "seconds": 50.716,
+          "log_sha256": "d949676e1b6deb91ec1adfa8eba3853cfe4922ccb77b1a5b29d781aca229eb28"
         },
         {
           "argv": [
-            "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+            "/Users/mac/.elan/bin/lake",
             "env",
             "lean",
             "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo/AuditBridge.lean"
           ],
           "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-          "log": "/private/tmp/audit-rerun-1790436205/0007-1.log",
+          "log": "/private/tmp/audit-rerun-1790583101/0007-1.log",
           "exit_code": 0,
           "status": "ok",
-          "seconds": 138.935,
+          "seconds": 51.636,
           "log_sha256": "75806e055af219a350927c7def7c083138da6834f9090b6f778ed072b117842c"
         },
         {
           "argv": [
-            "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+            "/Users/mac/.elan/bin/lake",
             "env",
             "lean",
-            "/private/tmp/audit-rerun-1790436205/Audit0007.lean"
+            "/private/tmp/audit-rerun-1790583101/Audit0007.lean"
           ],
           "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-          "log": "/private/tmp/audit-rerun-1790436205/0007-2.log",
+          "log": "/private/tmp/audit-rerun-1790583101/0007-2.log",
           "exit_code": 0,
           "status": "ok",
-          "seconds": 7.796,
+          "seconds": 6.328,
           "log_sha256": "cbdd042cf91d7a2f82b4a7ca2569b5af1efb7d0cd329338b51fc77e8852a5a16"
         }
       ]
@@ -847,7 +847,7 @@
     {
       "id": "bridge_match",
       "declaration": "AuditBridge.bridge_matches_main",
-      "audit_file": "/private/tmp/audit-rerun-1790436205/Audit0008.lean",
+      "audit_file": "/private/tmp/audit-rerun-1790583101/Audit0008.lean",
       "audit_sha256": "9703d72d87e90f200edcb03ba8e071c3f32361e420b4bfdb34af9b528ea47aeb",
       "status": "standard_axioms_only",
       "axioms": [
@@ -856,43 +856,43 @@
       "commands": [
         {
           "argv": [
-            "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+            "/Users/mac/.elan/bin/lake",
             "build",
             "+AuditBridge"
           ],
           "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-          "log": "/private/tmp/audit-rerun-1790436205/0008-0.log",
+          "log": "/private/tmp/audit-rerun-1790583101/0008-0.log",
           "exit_code": 0,
           "status": "ok",
-          "seconds": 3.827,
+          "seconds": 3.364,
           "log_sha256": "96d345fc82e7abb03b7bf2281276ea6ac723f2e246bb0a82ce20fe9fdb8ff71f"
         },
         {
           "argv": [
-            "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+            "/Users/mac/.elan/bin/lake",
             "env",
             "lean",
             "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo/AuditBridge.lean"
           ],
           "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-          "log": "/private/tmp/audit-rerun-1790436205/0008-1.log",
+          "log": "/private/tmp/audit-rerun-1790583101/0008-1.log",
           "exit_code": 0,
           "status": "ok",
-          "seconds": 114.534,
+          "seconds": 37.795,
           "log_sha256": "75806e055af219a350927c7def7c083138da6834f9090b6f778ed072b117842c"
         },
         {
           "argv": [
-            "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/lean-toolchain2/lean-4.34.1-darwin/bin/lake",
+            "/Users/mac/.elan/bin/lake",
             "env",
             "lean",
-            "/private/tmp/audit-rerun-1790436205/Audit0008.lean"
+            "/private/tmp/audit-rerun-1790583101/Audit0008.lean"
           ],
           "cwd": "/Users/mac/WorkBuddy/2026-09-25-23-12-31/jsp-work/repo",
-          "log": "/private/tmp/audit-rerun-1790436205/0008-2.log",
+          "log": "/private/tmp/audit-rerun-1790583101/0008-2.log",
           "exit_code": 0,
           "status": "ok",
-          "seconds": 5.774,
+          "seconds": 5.722,
           "log_sha256": "1c109474ff2fa60da2e5744ce0d4392e262816e10890f0b68b92ef1c3baf46fa"
         }
       ]
@@ -906,7 +906,7 @@
   "after": {
     "ready_for_target_checks": true,
     "issues": [],
-    "head": "60f0543927befcff0594e2a6f0dbe97323512464",
+    "head": "2926281f519b5559be5fe3ccaabda0496e6bf2c6",
     "git_status": "",
     "toolchain_file": "leanprover/lean4:v4.34.1",
     "file_sha256": {
@@ -927,7 +927,7 @@
     "checker_compatibility": "not_probed; inspect pinned checker separately"
   },
   "inputs_stable": true,
-  "manifest_sha256": "e78d9518040acb6aaf9b88b00ef0dbd180dc623064b6384ec741465f729cf061",
+  "manifest_sha256": "4ff1e3a2efe51630c3cc91d974ae8bf6dbadb9734376164abacf505fa371399e",
   "script_sha256": "5db45dddcb4d588bc27e7c7161fbca5cedaa3e73e1c40843d21f5a214323cd07",
   "exit_code": 0
 }

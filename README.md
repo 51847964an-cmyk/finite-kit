@@ -149,7 +149,7 @@ The wrapper does steps 1–3 in order and prints a per-target table.
 
 The version captured in `tools/audit/result.json` exited 0 with
 `mechanical_status: standard_axioms_only` for all 9 declared targets at commit
-`56d2f48ffa75d8052633b6069c7884fc65943bf7` (HEAD):
+`2926281f519b5559be5fe3ccaabda0496e6bf2c6` (HEAD):
 
 | Target | Declaration | Result | Axioms |
 |---|---|---|---|
