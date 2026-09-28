@@ -149,7 +149,7 @@ The wrapper does steps 1–3 in order and prints a per-target table.
 
 The version captured in `tools/audit/result.json` exited 0 with
 `mechanical_status: standard_axioms_only` for all 9 declared targets at commit
-`2926281f519b5559be5fe3ccaabda0496e6bf2c6` (HEAD):
+`2926281f519b5559be5fe3ccaabda0496e6bf2c6`:
 
 | Target | Declaration | Result | Axioms |
 |---|---|---|---|
@@ -174,4 +174,4 @@ chicken-and-egg between manifest commit and HEAD commit.
 
 ## License
 
-Apache 2.0. See `LICENSE`.
+MIT. See `LICENSE`.
